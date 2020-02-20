@@ -11,3 +11,18 @@
     text-align: center;
     font-weight: bold;
 }
+.services{
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+}
+#services h4{
+    font-family: 'Gabriela', serif;
+}
+#services{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
