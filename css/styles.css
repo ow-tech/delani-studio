@@ -36,30 +36,41 @@
 .whatWeDo h4{
     text-align: center;
 }
-.flex{
+#design{
+    display:none;
+}
+#development{
+    display:none;
+}
+#product{
+    display:none;
+}
+/* .flex{
     display:flex;
     justify-content: space-between;
     margin-top:10%;
 
-}
+} */
 .portfolio{
     align-items: center;
     text-align: center;
 }
 
-/* .border{
-    border: 40px solid black;
-    margin:10%;
-} */
-/* .contact{
+.contact{
     margin-top:5%;
     background-image: url(/assets/backgrounds/c_image.jpg);
-    align-items: center; */
-/* } */
-input{
-    position: relative;
-    background-color:transparent;
-    color:#fff;
+
+}
+#mc_embed_signup{ 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;
+ }
+
+.transparent input{
+    background-color: transparent;
+}
+.transparent textarea{
+    background-color: transparent;
 }
 footer{
     text-align: center;
