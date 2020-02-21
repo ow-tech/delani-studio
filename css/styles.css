@@ -59,6 +59,8 @@
 .contact{
     margin-top:5%;
     background-image: url(/assets/backgrounds/c_image.jpg);
+    color:white;
+    text-align: center;
 
 }
 #mc_embed_signup{ 
@@ -68,9 +70,15 @@
 
 .transparent input{
     background-color: transparent;
+    margin-left:20%;
 }
 .transparent textarea{
     background-color: transparent;
+    width: 55%;
+    margin-left:15%;
+}
+button{
+    margin-left:40%;
 }
 footer{
     text-align: center;
