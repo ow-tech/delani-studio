@@ -51,12 +51,17 @@
     border: 40px solid black;
     margin:10%;
 } */
-.contact{
+/* .contact{
     margin-top:5%;
     background-image: url(/assets/backgrounds/c_image.jpg);
-}
+    align-items: center; */
+/* } */
 input{
     position: relative;
-    background-color: blue;
+    background-color:transparent;
     color:#fff;
+}
+footer{
+    text-align: center;
+    align-items: center;
 }
