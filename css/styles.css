@@ -3,6 +3,7 @@
     background-size: cover;
     background-position:center center ;
     color:white;
+    font-family: 'Open Sans', 'Oxygen';
     text-align: center;
     padding-top:17%;
 }
@@ -13,7 +14,7 @@
 .aboutus{
     margin-top:70px;
     text-align: center;
-    font-weight: bold;
+    font-family: 'Open Sans', 'Oxygen', 'Arvo';
 }
 .services{
     background-image: url(../images/s_image.jpg);
@@ -35,6 +36,8 @@
 }
 .whatWeDo h4{
     text-align: center;
+    font-family: 'Open Sans', 'Oxygen', 'Arvo';
+    margin-bottom:10%;
 }
 #design{
     display:none;
