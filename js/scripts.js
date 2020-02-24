@@ -1,3 +1,5 @@
+//user interface(front-end)
+
 function success(){
     var name= document.getElementById("name").value;
     var email= document.getElementById("email").value;
@@ -7,11 +9,12 @@ function success(){
     }
     else{
         alert(name+" your message/comment has been received successfully")
-    }g
+    }
 
 };
 
 
+//anything below this line is Business logic(Back-end)
 
 $(document).ready(function(){
     $("img.design ").click(function(){
