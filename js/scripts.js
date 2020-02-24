@@ -7,9 +7,7 @@ function success(){
     }
     else{
         alert(name+" your message/comment has been received successfully")
-    }
-    document.getElementById("output").innerHTML=
-    ("Your Message has been Submited SUCCESSFULLY>>>");
+    }g
 
 };
 
