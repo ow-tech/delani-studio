@@ -8,6 +8,9 @@ Alex Mulwa Barasa
 ## Technologies Used
 {In the creation of Delani Studio,I have utilized html,css, Bootsrap and JavaScript; howover, there is an opening for future advancement to it as I acquire more knowledge on other language to use.}
 
+## known Bugs
+On hovering over the portfolio, the responce is slower than ussualy. One has to hover over the image of portfolio twice for its name to pop up.
+
 ## BDD
 | ### Inputs |###Description |
 |:----       |         ---: |
@@ -18,7 +21,7 @@ Alex Mulwa Barasa
 
 
 ## Deployment
-You can vist the site directly by clicking [here]()
+You can vist the site directly by clicking [here](https://ow-tech.github.io/delani-studio/)
 ## Support and contact details
 One can easily reach me via email.
 Alexbarasa0723@gmail.com}
