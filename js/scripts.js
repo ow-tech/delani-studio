@@ -1,3 +1,20 @@
+function success(){
+    var name= document.getElementById("name").value;
+    var email= document.getElementById("email").value;
+    var text = document.getElementById("comment").value;
+    if(email==""||name==""||text==""){
+        alert("Please ensure you enter all the provided spaces.")
+    }
+    else{
+        alert(name+" your message/comment has been received successfully")
+    }
+    document.getElementById("output").innerHTML=
+    ("Your Message has been Submited SUCCESSFULLY>>>");
+
+};
+
+
+
 $(document).ready(function(){
     $("img.design ").click(function(){
         $("p#design").slideToggle();
@@ -6,7 +23,7 @@ $(document).ready(function(){
     $("p.des").click(function(){
         $("img.design").slideToggle();
         $("p#design").slideToggle();
-    });
+    })
 
     $("img.development").click(function(){
         $("p#development").slideToggle();
@@ -15,7 +32,7 @@ $(document).ready(function(){
     $("p.dev").click(function(){
         $("img.development").slideToggle();
         $("p#development").slideToggle();
-    });
+    })
 
     $("img.product").click(function(){
         $("p#product").slideToggle();
