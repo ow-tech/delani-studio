@@ -52,15 +52,17 @@ html{
     display:none;
 }
 .portfolio{
+    padding: 0;
+    margin: 0;
     text-align: center;
 }
-.col-md-3 img{
+/* .col-md-3 img{
     height:250px
-}
-.container{
+} */
+/* .container{
     padding-right: 10px;
     padding-left: 10px;
-}
+} */
 
 .port1, .port2, .port3, .port4, .port5, .port6, .port7, .port8{
     display: none;
@@ -112,6 +114,12 @@ footer{
 #flex-container{
     display: flex;
     flex-direction: ;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: space-between;
+
 }
-
-
+.flex-itemOne{
+    height: 300px;
+    width:250px;
+}
