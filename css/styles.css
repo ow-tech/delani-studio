@@ -109,5 +109,9 @@ footer{
     align-items: center;
     margin-top:5%;
 }
+#flex-container{
+    display: flex;
+    flex-direction: ;
+}
 
 
